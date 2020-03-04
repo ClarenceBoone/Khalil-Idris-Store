@@ -312,3 +312,30 @@ nav ul li:hover {
 		opacity: 1;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.tone-2 img {
+		left: -8rem;
+	}
+
+	.product-info h1 {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.product-info p {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	.product-info h2 {
+		font-size: 1.5rem;
+		margin-bottom: 4rem;
+	}
+
+	.btn {
+		padding: 0.5rem;
+		font-size: 0.8rem;
+	}
+}
